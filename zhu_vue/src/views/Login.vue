@@ -50,6 +50,11 @@ export default {
         path: '/register'
       })
     },
+    // register () {
+    //   this.$router.push({
+    //     path: '/register'
+    //   })
+    // },
     checkAble () {
       if (this.id !== '' && this.password !== '') {
         this.disable = false
